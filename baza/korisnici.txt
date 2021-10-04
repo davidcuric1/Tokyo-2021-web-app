@@ -1,0 +1,37 @@
+db.createCollection('Korisnici')
+db.getCollection('Korisnici').insertMany([
+{
+    "_id" : ObjectId("6113e8f91c6f607685f55860"),
+    "korisnicko" : "organizator",
+    "lozinka" : "Aaaa11!!",
+    "ime" : "Organizator",
+    "prezime" : "Organizataki",
+    "nacionalnost" : "Japan",
+    "email" : "org@gmail.com",
+    "tip" : "organizator",
+    "odobren" : 1
+},
+{
+    "_id" : ObjectId("6113e9201c6f607685f55865"),
+    "korisnicko" : "delegat",
+    "lozinka" : "Bbbb22!!",
+    "ime" : "Delegat",
+    "prezime" : "Delegatomo",
+    "nacionalnost" : "Japan",
+    "email" : "del@gmail.com",
+    "tip" : "delegat",
+    "brtak" : 2,
+    "odobren" : 1
+},
+{
+    "_id" : ObjectId("6113e9601c6f607685f5586a"),
+    "korisnicko" : "vodjaSrb",
+    "lozinka" : "Cccc33!!",
+    "ime" : "Vodja",
+    "prezime" : "Vodjic",
+    "nacionalnost" : "Serbia",
+    "email" : "vsrb@gmail.com",
+    "tip" : "vodja delegacije",
+    "odobren" : 1
+}
+])

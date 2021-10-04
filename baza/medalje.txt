@@ -1,0 +1,119 @@
+db.createCollection('Medalje')
+db.getCollection('Medalje').insertMany([
+{
+    "_id" : ObjectId("611aad3f705481bee54f5116"),
+    "drzava" : "Australia",
+    "zlata" : 0,
+    "srebra" : 0,
+    "bronze" : 1,
+    "ukupno" : 1
+},
+{
+    "_id" : ObjectId("611aad5c705481bee54f5132"),
+    "drzava" : "Ecuador",
+    "zlata" : 1,
+    "srebra" : 0,
+    "bronze" : 0,
+    "ukupno" : 1
+},
+{
+    "_id" : ObjectId("611aad6b705481bee54f5138"),
+    "drzava" : "France",
+    "zlata" : 0,
+    "srebra" : 1,
+    "bronze" : 0,
+    "ukupno" : 1
+},
+{
+    "_id" : ObjectId("611aad7d705481bee54f5144"),
+    "drzava" : "Greece",
+    "zlata" : 1,
+    "srebra" : 1,
+    "bronze" : 0,
+    "ukupno" : 2
+},
+{
+    "_id" : ObjectId("611aadc0705481bee54f5179"),
+    "drzava" : "Italy",
+    "zlata" : 1,
+    "srebra" : 0,
+    "bronze" : 0,
+    "ukupno" : 1
+},
+{
+    "_id" : ObjectId("611aadd2705481bee54f517f"),
+    "drzava" : "Jamaica",
+    "zlata" : 1,
+    "srebra" : 0,
+    "bronze" : 0,
+    "ukupno" : 1
+},
+{
+    "_id" : ObjectId("611aade3705481bee54f5185"),
+    "drzava" : "Serbia",
+    "zlata" : 2,
+    "srebra" : 1,
+    "bronze" : 0,
+    "ukupno" : 3
+},
+{
+    "_id" : ObjectId("611aadf1705481bee54f518f"),
+    "drzava" : "Slovenia",
+    "zlata" : 0,
+    "srebra" : 0,
+    "bronze" : 1,
+    "ukupno" : 1
+},
+{
+    "_id" : ObjectId("611aae08705481bee54f5199"),
+    "drzava" : "United States",
+    "zlata" : 2,
+    "srebra" : 1,
+    "bronze" : 0,
+    "ukupno" : 3
+},
+{
+    "_id" : ObjectId("611aae16705481bee54f519f"),
+    "drzava" : "Venezuela",
+    "zlata" : 1,
+    "srebra" : 0,
+    "bronze" : 0,
+    "ukupno" : 1
+},
+{
+    "_id" : ObjectId("61291eb40b579e2a48e8cba6"),
+    "drzava" : "Andorra",
+    "__v" : 0,
+    "bronze" : 0,
+    "srebra" : 0,
+    "ukupno" : 1,
+    "zlata" : 1
+},
+{
+    "_id" : ObjectId("61292c800b579e2a48e8e04b"),
+    "drzava" : "Croatia",
+    "__v" : 0,
+    "bronze" : 0,
+    "srebra" : 0,
+    "ukupno" : 1,
+    "zlata" : 1
+},
+{
+    "_id" : ObjectId("61292c800b579e2a48e8e04e"),
+    "drzava" : "Germany",
+    "__v" : 0,
+    "bronze" : 1,
+    "srebra" : 1,
+    "ukupno" : 2,
+    "zlata" : 0
+},
+{
+    "_id" : ObjectId("612a9b0d0b579e2a48e9802a"),
+    "drzava" : "ROC",
+    "__v" : 0,
+    "bronze" : 0,
+    "srebra" : 1,
+    "ukupno" : 1,
+    "zlata" : 0
+}
+])

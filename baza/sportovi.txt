@@ -1,0 +1,148 @@
+db.createCollection('Sportovi')
+db.getCollection('Sportovi').insertMany([
+{
+    "_id" : ObjectId("61165e35cbe23e58212da92f"),
+    "naziv" : "Kosarka",
+    "discipline" : null,
+    "vrsta" : "ekipni",
+    "min" : 5,
+    "max" : 12,
+    "tip_takmicenja" : "turnir"
+},
+{
+    "_id" : ObjectId("61165e54cbe23e58212da93a"),
+    "naziv" : "Odbojka",
+    "discipline" : null,
+    "vrsta" : "ekipni",
+    "min" : 6,
+    "max" : 12,
+    "tip_takmicenja" : "turnir"
+},
+{
+    "_id" : ObjectId("61165e6fcbe23e58212da947"),
+    "naziv" : "Vaterpolo",
+    "discipline" : null,
+    "vrsta" : "ekipni",
+    "min" : 6,
+    "max" : 13,
+    "tip_takmicenja" : "turnir"
+},
+{
+    "_id" : ObjectId("6116614bcbe23e58212daa4e"),
+    "naziv" : "Atletika",
+    "discipline" : [ 
+        "100m trcanje", 
+        "stafetno trcanje 100m", 
+        "200m trcanje", 
+        "400m trcanje", 
+        "stafetno trcanje 400m", 
+        "800m trcanje", 
+        "5000m trcanje", 
+        "10000m trcanje", 
+        "skok u vis", 
+        "skok u dalj", 
+        "troskok", 
+        "skok s motkom", 
+        "bacanje kugle", 
+        "bacanje diska", 
+        "bacanje kladiva", 
+        "bacanje koplja", 
+        "maraton", 
+        "20km brzo hodanje", 
+        "50km brzo hodanje"
+    ],
+    "vrsta" : [ 
+        "ind", 
+        "ekipni", 
+        "ind", 
+        "ind", 
+        "ekipni", 
+        "ind", 
+        "ind", 
+        "ind", 
+        "ind", 
+        "ind", 
+        "ind", 
+        "ind", 
+        "ind", 
+        "ind", 
+        "ind", 
+        "ind", 
+        "ind", 
+        "ind", 
+        "ind"
+    ],
+    "min" : [ 
+        1, 
+        4
+    ],
+    "max" : [ 
+        1, 
+        4
+    ],
+    "tip_takmicenja" : "finale",
+    "tip_rezultata" : "najbolji"
+},
+{
+    "_id" : ObjectId("6116619dcbe23e58212daa75"),
+    "naziv" : "Biciklizam",
+    "discipline" : [ 
+        "drumska trka 225km"
+    ],
+    "vrsta" : "ind",
+    "min" : 1,
+    "max" : 1,
+    "tip_takmicenja" : "finale",
+    "tip_rezultata" : "najbolji"
+},
+{
+    "_id" : ObjectId("611661c6cbe23e58212daa84"),
+    "naziv" : "Plivanje",
+    "discipline" : [ 
+        "100m leptir", 
+        "100m slobodno"
+    ],
+    "vrsta" : "ind",
+    "min" : 1,
+    "max" : 1,
+    "tip_takmicenja" : "finale",
+    "tip_rezultata" : "najbolji"
+},
+{
+    "_id" : ObjectId("6116620ccbe23e58212daa99"),
+    "naziv" : "Streljastvo",
+    "discipline" : [ 
+        "50m trostav", 
+        "10m vazdusna puska", 
+        "25m malokalibarski pistolj", 
+        "10m vazdusni pistolj"
+    ],
+    "vrsta" : "ind",
+    "min" : 1,
+    "max" : 1,
+    "tip_takmicenja" : "finale",
+    "tip_rezultata" : "zbir"
+},
+{
+    "_id" : ObjectId("6116624ccbe23e58212daaad"),
+    "naziv" : "Tenis",
+    "discipline" : [ 
+        "singl", 
+        "dubl"
+    ],
+    "vrsta" : [ 
+        "ind", 
+        "timski"
+    ],
+    "min" : [ 
+        1, 
+        2
+    ],
+    "max" : [ 
+        1, 
+        2
+    ],
+    "tip_takmicenja" : "turnir",
+    "tip_rezultata" : "najbolji"
+}
+])

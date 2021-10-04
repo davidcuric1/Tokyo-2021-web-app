@@ -1,0 +1,3 @@
+ng add @angular/material
+npm install ngx-toastr --save
+npm install @angular/animations --save

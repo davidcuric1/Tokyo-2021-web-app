@@ -1,0 +1,58 @@
+db.createCollection('Lokacije')
+db.getCollection('Lokacije').insertMany([
+{
+    "_id" : ObjectId("61211a0561f672b2442c390c"),
+    "naziv" : "Olimpijski stadion",
+    "discipline" : [ 
+        "100m trcanje", 
+        "200m trcanje", 
+        "400m trcanje", 
+        "800m trcanje", 
+        "5000m trcanje", 
+        "10000m trcanje", 
+        "skok u vis", 
+        "skok u dalj", 
+        "troskok", 
+        "skok s motkom", 
+        "bacanje kugle", 
+        "bacanje diska", 
+        "bacanje kladiva", 
+        "bacanje koplja"
+    ]
+},
+{
+    "_id" : ObjectId("61211a6161f672b2442c392f"),
+    "naziv" : "Park Saporo Odori",
+    "discipline" : [ 
+        "maraton", 
+        "20km brzo hodanje", 
+        "50km brzo hodanje"
+    ]
+},
+{
+    "_id" : ObjectId("61211a9561f672b2442c3940"),
+    "naziv" : "Tenis park Ariake",
+    "discipline" : [ 
+        "singl", 
+        "dubl"
+    ]
+},
+{
+    "_id" : ObjectId("61211ab361f672b2442c394d"),
+    "naziv" : "Akvaticki centar Tokio",
+    "discipline" : [ 
+        "100m slobodno", 
+        "100m leptir"
+    ]
+},
+{
+    "_id" : ObjectId("61211b0061f672b2442c3970"),
+    "naziv" : "Streliste Asaka",
+    "discipline" : [ 
+        "50m trostav", 
+        "10m vazdusna puska", 
+        "25m malokalibarski pistolj", 
+        "10m vazdusni pistolj"
+    ]
+}
+])

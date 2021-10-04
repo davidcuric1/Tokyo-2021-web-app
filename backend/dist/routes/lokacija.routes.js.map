@@ -1,0 +1,1 @@
+{"version":3,"file":"lokacija.routes.js","sourceRoot":"","sources":["../../src/routes/lokacija.routes.ts"],"names":[],"mappings":";;;;;AAAA,sDAA8B;AAC9B,4EAAwE;AAGxE,MAAM,cAAc,GAAC,iBAAO,CAAC,MAAM,EAAE,CAAC;AAGtC,cAAc,CAAC,KAAK,CAAC,cAAc,CAAC,CAAC,GAAG,CACpC,CAAC,GAAG,EAAC,GAAG,EAAC,EAAE,CAAC,IAAI,wCAAkB,EAAE,CAAC,WAAW,CAAC,GAAG,EAAC,GAAG,CAAC,CAG5D,CAAA;AAED,kBAAe,cAAc,CAAC"}

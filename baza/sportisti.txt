@@ -1,0 +1,522 @@
+db.createCollection('Sportisti')
+db.getCollection('Sportisti').insertMany([
+{
+    "_id" : ObjectId("61152266cbe23e58212d882f"),
+    "ime" : "Novak",
+    "prezime" : "Djokovic",
+    "pol" : "M",
+    "sport" : "Tenis",
+    "discipline" : [ 
+        "singl", 
+        "dubl"
+    ],
+    "nacionalnost" : "Serbia",
+    "osvojio_medalju" : 1
+},
+{
+    "_id" : ObjectId("611522e0cbe23e58212d8858"),
+    "ime" : "Sandra",
+    "prezime" : "Perkovic",
+    "pol" : "Z",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "bacanje diska"
+    ],
+    "nacionalnost" : "Croatia",
+    "osvojio_medalju" : 1
+},
+{
+    "_id" : ObjectId("6115232acbe23e58212d885f"),
+    "ime" : "Kevin",
+    "prezime" : "Durant",
+    "pol" : "M",
+    "sport" : "Kosarka",
+    "discipline" : [],
+    "nacionalnost" : "United States",
+    "osvojio_medalju" : 1
+},
+{
+    "_id" : ObjectId("6115236acbe23e58212d886b"),
+    "ime" : "Damir",
+    "prezime" : "Mikec",
+    "pol" : "M",
+    "sport" : "Streljastvo",
+    "discipline" : [ 
+        "50m trostav", 
+        "10m vazdusni pistolj"
+    ],
+    "nacionalnost" : "Serbia",
+    "osvojio_medalju" : 1
+},
+{
+    "_id" : ObjectId("611523d3cbe23e58212d887e"),
+    "ime" : "Gianmarco",
+    "prezime" : "Tamberi",
+    "pol" : "M",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "skok u vis"
+    ],
+    "nacionalnost" : "Italy",
+    "osvojio_medalju" : 1
+},
+{
+    "_id" : ObjectId("611a912f705481bee54f43e2"),
+    "ime" : "Yohan",
+    "prezime" : "Blake",
+    "pol" : "M",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "100m trcanje", 
+        "200m trcanje"
+    ],
+    "nacionalnost" : "Jamaica",
+    "osvojio_medalju" : 0
+},
+{
+    "_id" : ObjectId("611a9173705481bee54f43fa"),
+    "ime" : "Andrija",
+    "prezime" : "Prlainovic",
+    "pol" : "M",
+    "sport" : "Vaterpolo",
+    "discipline" : [],
+    "nacionalnost" : "Serbia",
+    "osvojio_medalju" : 1
+},
+{
+    "_id" : ObjectId("611a91c2705481bee54f4411"),
+    "ime" : "Elaine",
+    "prezime" : "Thompson-Herah",
+    "pol" : "Z",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "100m trcanje", 
+        "200m trcanje"
+    ],
+    "nacionalnost" : "Jamaica",
+    "osvojio_medalju" : 1
+},
+{
+    "_id" : ObjectId("611a91f4705481bee54f442b"),
+    "ime" : "Ivana",
+    "prezime" : "Spanovic",
+    "pol" : "Z",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "skok u dalj"
+    ],
+    "nacionalnost" : "Serbia",
+    "osvojio_medalju" : 0
+},
+{
+    "_id" : ObjectId("611a9256705481bee54f444e"),
+    "ime" : "Caleb",
+    "prezime" : "Dressel",
+    "pol" : "M",
+    "sport" : "Plivanje",
+    "discipline" : [ 
+        "100m slobodno", 
+        "100m leptir"
+    ],
+    "nacionalnost" : "United States",
+    "osvojio_medalju" : 1
+},
+{
+    "_id" : ObjectId("611a92bb705481bee54f447f"),
+    "ime" : "Yulimar",
+    "prezime" : "Rojas",
+    "pol" : "Z",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "troskok"
+    ],
+    "nacionalnost" : "Venezuela",
+    "osvojio_medalju" : 1
+},
+{
+    "_id" : ObjectId("611aa8f1705481bee54f4ed3"),
+    "ime" : "Richard",
+    "prezime" : "Carapaz",
+    "pol" : "M",
+    "sport" : "Biciklizam",
+    "discipline" : [ 
+        "drumska trka 225km"
+    ],
+    "nacionalnost" : "Ecuador",
+    "osvojio_medalju" : 1
+},
+{
+    "_id" : ObjectId("611aa929705481bee54f4ef0"),
+    "ime" : "Tadej",
+    "prezime" : "Pogacar",
+    "pol" : "M",
+    "sport" : "Biciklizam",
+    "discipline" : [ 
+        "drumska trka 225km"
+    ],
+    "nacionalnost" : "Slovenia",
+    "osvojio_medalju" : 1
+},
+{
+    "_id" : ObjectId("611aa941705481bee54f4efe"),
+    "ime" : "Nicolas",
+    "prezime" : "Batum",
+    "pol" : "M",
+    "sport" : "Kosarka",
+    "discipline" : [],
+    "nacionalnost" : "France",
+    "osvojio_medalju" : 1
+},
+{
+    "_id" : ObjectId("611aa95d705481bee54f4f09"),
+    "ime" : "Joe",
+    "prezime" : "Ingles",
+    "pol" : "M",
+    "sport" : "Kosarka",
+    "discipline" : [],
+    "nacionalnost" : "Australia",
+    "osvojio_medalju" : 1
+},
+{
+    "_id" : ObjectId("611aa97d705481bee54f4f18"),
+    "ime" : "Sergio",
+    "prezime" : "Llull",
+    "pol" : "M",
+    "sport" : "Kosarka",
+    "discipline" : [],
+    "nacionalnost" : "Spain",
+    "osvojio_medalju" : 1
+},
+{
+    "_id" : ObjectId("611aa9bc705481bee54f4f30"),
+    "ime" : "Marios",
+    "prezime" : "Kapotsis",
+    "pol" : "M",
+    "sport" : "Vaterpolo",
+    "discipline" : [],
+    "nacionalnost" : "Greece",
+    "osvojio_medalju" : 1
+},
+{
+    "_id" : ObjectId("611aa9e6705481bee54f4f3d"),
+    "ime" : "Bruno",
+    "prezime" : "Rezende",
+    "pol" : "M",
+    "sport" : "Odbojka",
+    "discipline" : [],
+    "nacionalnost" : "Brazil",
+    "osvojio_medalju" : 0
+},
+{
+    "_id" : ObjectId("6122337761f672b2442c5d4c"),
+    "ime" : "Alexander",
+    "prezime" : "Zverev",
+    "pol" : "M",
+    "sport" : "Tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "nacionalnost" : "Germany",
+    "osvojio_medalju" : 1
+},
+{
+    "_id" : ObjectId("6122339a61f672b2442c5d56"),
+    "ime" : "Karen",
+    "prezime" : "Khachanov",
+    "pol" : "M",
+    "sport" : "Tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "nacionalnost" : "ROC",
+    "osvojio_medalju" : 1
+},
+{
+    "_id" : ObjectId("612233c761f672b2442c5d68"),
+    "ime" : "Kei",
+    "prezime" : "Nishikori",
+    "pol" : "M",
+    "sport" : "Tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "nacionalnost" : "Japan",
+    "osvojio_medalju" : 0
+},
+{
+    "_id" : ObjectId("6128067b6dfcd74d83e5e31c"),
+    "ime" : "Valarie",
+    "prezime" : "Allman",
+    "pol" : "Z",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "bacanje diska"
+    ],
+    "nacionalnost" : "United States",
+    "osvojio_medalju" : 1
+},
+{
+    "_id" : ObjectId("612806b16dfcd74d83e5e37a"),
+    "ime" : "Kristin",
+    "prezime" : "Pudenz",
+    "pol" : "Z",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "bacanje diska"
+    ],
+    "nacionalnost" : "Germany",
+    "osvojio_medalju" : 1
+},
+{
+    "_id" : ObjectId("612806d96dfcd74d83e5e38b"),
+    "ime" : "Yaime",
+    "prezime" : "Perez",
+    "pol" : "Z",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "bacanje diska"
+    ],
+    "nacionalnost" : "Cuba",
+    "osvojio_medalju" : 0
+},
+{
+    "_id" : ObjectId("6135e65af5a5ec2ab7e22b68"),
+    "ime" : "Andre",
+    "prezime" : "de Grasse",
+    "pol" : "M",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "200m trcanje"
+    ],
+    "nacionalnost" : "Canada",
+    "osvojio_medalju" : 0
+},
+{
+    "_id" : ObjectId("6135e697f5a5ec2ab7e22b88"),
+    "ime" : "Kenneth",
+    "prezime" : "Bednarek",
+    "pol" : "M",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "200m trcanje"
+    ],
+    "nacionalnost" : "United States",
+    "osvojio_medalju" : 0
+},
+{
+    "_id" : ObjectId("6135e6acf5a5ec2ab7e22b91"),
+    "ime" : "Noah",
+    "prezime" : "Lyles",
+    "pol" : "M",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "200m trcanje"
+    ],
+    "nacionalnost" : "United States",
+    "osvojio_medalju" : 0
+},
+{
+    "_id" : ObjectId("6135e6d6f5a5ec2ab7e22ba5"),
+    "ime" : "Erriyon",
+    "prezime" : "Knighton",
+    "pol" : "M",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "200m trcanje"
+    ],
+    "nacionalnost" : "United States",
+    "osvojio_medalju" : 0
+},
+{
+    "_id" : ObjectId("6135e70af5a5ec2ab7e22bc8"),
+    "ime" : "Joseph",
+    "prezime" : "Fahnbulleh",
+    "pol" : "M",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "200m trcanje"
+    ],
+    "nacionalnost" : "Liberia",
+    "osvojio_medalju" : 0
+},
+{
+    "_id" : ObjectId("6135e727f5a5ec2ab7e22bd3"),
+    "ime" : "Aaron",
+    "prezime" : "Brown",
+    "pol" : "M",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "200m trcanje"
+    ],
+    "nacionalnost" : "Canada",
+    "osvojio_medalju" : 0
+},
+{
+    "_id" : ObjectId("6135e749f5a5ec2ab7e22be5"),
+    "ime" : "Rasheed",
+    "prezime" : "Dwyer",
+    "pol" : "M",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "200m trcanje"
+    ],
+    "nacionalnost" : "Jamaica",
+    "osvojio_medalju" : 0
+},
+{
+    "_id" : ObjectId("6135e781f5a5ec2ab7e22c0f"),
+    "ime" : "Jareem",
+    "prezime" : "Richards",
+    "pol" : "M",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "200m trcanje"
+    ],
+    "nacionalnost" : "Trinidad and Tobago",
+    "osvojio_medalju" : 0
+},
+{
+    "_id" : ObjectId("6135f12cf5a5ec2ab7e23364"),
+    "ime" : "Marin",
+    "prezime" : "Cilic",
+    "pol" : "M",
+    "sport" : "Tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "nacionalnost" : "Croatia",
+    "osvojio_medalju" : 0
+},
+{
+    "_id" : ObjectId("6135f141f5a5ec2ab7e2336f"),
+    "ime" : "Danil",
+    "prezime" : "Medvedev",
+    "pol" : "M",
+    "sport" : "Tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "nacionalnost" : "ROC",
+    "osvojio_medalju" : 0
+},
+{
+    "_id" : ObjectId("6135f157f5a5ec2ab7e23381"),
+    "ime" : "Gael",
+    "prezime" : "Monfils",
+    "pol" : "M",
+    "sport" : "Tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "nacionalnost" : "France",
+    "osvojio_medalju" : 0
+},
+{
+    "_id" : ObjectId("6135f188f5a5ec2ab7e2339c"),
+    "ime" : "Stefanos",
+    "prezime" : "Tsitsipas",
+    "pol" : "M",
+    "sport" : "Tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "nacionalnost" : "Greece",
+    "osvojio_medalju" : 0
+},
+{
+    "_id" : ObjectId("613631bcf5a5ec2ab7e26918"),
+    "ime" : "Neeraj",
+    "prezime" : "Chopra",
+    "pol" : "M",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "bacanje koplja"
+    ],
+    "nacionalnost" : "India",
+    "osvojio_medalju" : 0
+},
+{
+    "_id" : ObjectId("613631fcf5a5ec2ab7e2691f"),
+    "ime" : "Jakub",
+    "prezime" : "Vadlejch",
+    "pol" : "M",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "bacanje koplja"
+    ],
+    "nacionalnost" : "Czezh Republic",
+    "osvojio_medalju" : 0
+},
+{
+    "_id" : ObjectId("61363212f5a5ec2ab7e26926"),
+    "ime" : "Vitezslav",
+    "prezime" : "Vesely",
+    "pol" : "M",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "bacanje koplja"
+    ],
+    "nacionalnost" : "Czezh Republic",
+    "osvojio_medalju" : 0
+},
+{
+    "_id" : ObjectId("61363229f5a5ec2ab7e26929"),
+    "ime" : "Julian",
+    "prezime" : "Weber",
+    "pol" : "M",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "bacanje koplja"
+    ],
+    "nacionalnost" : "Germany",
+    "osvojio_medalju" : 0
+},
+{
+    "_id" : ObjectId("6136323ef5a5ec2ab7e2692e"),
+    "ime" : "Nadeem",
+    "prezime" : "Park",
+    "pol" : "M",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "bacanje koplja"
+    ],
+    "nacionalnost" : "Pakistan",
+    "osvojio_medalju" : 0
+},
+{
+    "_id" : ObjectId("6136325bf5a5ec2ab7e26938"),
+    "ime" : "Aliaksei",
+    "prezime" : "Katkavets",
+    "pol" : "M",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "bacanje koplja"
+    ],
+    "nacionalnost" : "Belarus",
+    "osvojio_medalju" : 0
+},
+{
+    "_id" : ObjectId("61363283f5a5ec2ab7e2693f"),
+    "ime" : "Andrian",
+    "prezime" : "Mardare",
+    "pol" : "M",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "bacanje koplja"
+    ],
+    "nacionalnost" : "Moldova",
+    "osvojio_medalju" : 0
+},
+{
+    "_id" : ObjectId("6136329ef5a5ec2ab7e26942"),
+    "ime" : "Lassi",
+    "prezime" : "Etelatalo",
+    "pol" : "M",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "bacanje koplja"
+    ],
+    "nacionalnost" : "Finland",
+    "osvojio_medalju" : 0
+}
+])

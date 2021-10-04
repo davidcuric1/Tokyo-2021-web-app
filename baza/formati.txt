@@ -1,0 +1,414 @@
+db.createCollection('Formati')
+db.getCollection('Formati').insertMany([
+{
+    "_id" : ObjectId("611d3213f78bd54384468855"),
+    "sport" : "Atletika",
+    "disciplina" : "100m trcanje",
+    "format_rezultata" : "S:T",
+    "opsezi" : [ 
+        "0-59", 
+        "0-99"
+    ],
+    "dozvoljeni_rezultati" : [],
+    "broj_serija" : 1,
+    "broj_takmicara" : [ 
+        8
+    ],
+    "tip_rezultata" : "vreme-kratka pruga"
+},
+{
+    "_id" : ObjectId("611d3221f78bd54384468862"),
+    "sport" : "Atletika",
+    "disciplina" : "200m trcanje",
+    "format_rezultata" : "S:T",
+    "opsezi" : [ 
+        "0-59", 
+        "0-99"
+    ],
+    "dozvoljeni_rezultati" : [],
+    "broj_serija" : 1,
+    "broj_takmicara" : [ 
+        8
+    ],
+    "tip_rezultata" : "vreme-kratka pruga"
+},
+{
+    "_id" : ObjectId("611d322cf78bd5438446886b"),
+    "sport" : "Atletika",
+    "disciplina" : "400m trcanje",
+    "format_rezultata" : "S:T",
+    "opsezi" : [ 
+        "0-59", 
+        "0-99"
+    ],
+    "dozvoljeni_rezultati" : [],
+    "broj_serija" : 1,
+    "broj_takmicara" : [ 
+        8
+    ],
+    "tip_rezultata" : "vreme-kratka pruga"
+},
+{
+    "_id" : ObjectId("611d3270f78bd54384468882"),
+    "sport" : "Atletika",
+    "disciplina" : "800m trcanje",
+    "format_rezultata" : "M:S:T",
+    "opsezi" : [ 
+        "0-59", 
+        "0-59", 
+        "0-99"
+    ],
+    "dozvoljeni_rezultati" : [],
+    "broj_serija" : 1,
+    "broj_takmicara" : [ 
+        8
+    ],
+    "tip_rezultata" : "vreme-kratka pruga"
+},
+{
+    "_id" : ObjectId("611d32bcf78bd5438446889a"),
+    "sport" : "Atletika",
+    "disciplina" : "5000m trcanje",
+    "format_rezultata" : "M:S:T",
+    "opsezi" : [ 
+        "0-59", 
+        "0-59", 
+        "0-99"
+    ],
+    "dozvoljeni_rezultati" : [],
+    "broj_serija" : 1,
+    "broj_takmicara" : [ 
+        8
+    ],
+    "tip_rezultata" : "vreme-kratka pruga"
+},
+{
+    "_id" : ObjectId("611d32c6f78bd5438446889f"),
+    "sport" : "Atletika",
+    "disciplina" : "10000m trcanje",
+    "format_rezultata" : "M:S:T",
+    "opsezi" : [ 
+        "0-59", 
+        "0-59", 
+        "0-99"
+    ],
+    "dozvoljeni_rezultati" : [],
+    "broj_serija" : 1,
+    "broj_takmicara" : [ 
+        8
+    ],
+    "tip_rezultata" : "vreme-kratka pruga"
+},
+{
+    "_id" : ObjectId("611d3315f78bd543844688d3"),
+    "sport" : "Plivanje",
+    "disciplina" : "100m slobodno",
+    "format_rezultata" : "S:T",
+    "opsezi" : [ 
+        "0-59", 
+        "0-99"
+    ],
+    "dozvoljeni_rezultati" : [],
+    "broj_serija" : 1,
+    "broj_takmicara" : [ 
+        8
+    ],
+    "tip_rezultata" : "vreme-kratka pruga"
+},
+{
+    "_id" : ObjectId("611d3325f78bd543844688db"),
+    "sport" : "Plivanje",
+    "disciplina" : "100m leptir",
+    "format_rezultata" : "S:T",
+    "opsezi" : [ 
+        "0-59", 
+        "0-99"
+    ],
+    "dozvoljeni_rezultati" : [],
+    "broj_serija" : 1,
+    "broj_takmicara" : [ 
+        8
+    ],
+    "tip_rezultata" : "vreme-kratka pruga"
+},
+{
+    "_id" : ObjectId("611d341cf78bd54384468956"),
+    "sport" : "Atletika",
+    "disciplina" : "skok u vis",
+    "format_rezultata" : "M:CM",
+    "opsezi" : [ 
+        "0-9", 
+        "0-99"
+    ],
+    "dozvoljeni_rezultati" : [],
+    "broj_serija" : 3,
+    "broj_takmicara" : [ 
+        8
+    ],
+    "tip_rezultata" : "duzina"
+},
+{
+    "_id" : ObjectId("611d3425f78bd5438446895b"),
+    "sport" : "Atletika",
+    "disciplina" : "skok u dalj",
+    "format_rezultata" : "M:CM",
+    "opsezi" : [ 
+        "0-9", 
+        "0-99"
+    ],
+    "dozvoljeni_rezultati" : [],
+    "broj_serija" : 3,
+    "broj_takmicara" : [ 
+        8
+    ],
+    "tip_rezultata" : "duzina"
+},
+{
+    "_id" : ObjectId("611d343af78bd54384468966"),
+    "sport" : "Atletika",
+    "disciplina" : "troskok",
+    "format_rezultata" : "M:CM",
+    "opsezi" : [ 
+        "0-9", 
+        "0-99"
+    ],
+    "dozvoljeni_rezultati" : [],
+    "broj_serija" : 3,
+    "broj_takmicara" : [ 
+        8
+    ],
+    "tip_rezultata" : "duzina"
+},
+{
+    "_id" : ObjectId("611d3452f78bd54384468976"),
+    "sport" : "Atletika",
+    "disciplina" : "skok s motkom",
+    "format_rezultata" : "M:CM",
+    "opsezi" : [ 
+        "0-9", 
+        "0-99"
+    ],
+    "dozvoljeni_rezultati" : [],
+    "broj_serija" : 3,
+    "broj_takmicara" : [ 
+        8
+    ],
+    "tip_rezultata" : "duzina"
+},
+{
+    "_id" : ObjectId("611d347ef78bd54384468991"),
+    "sport" : "Atletika",
+    "disciplina" : "bacanje kugle",
+    "format_rezultata" : "M:CM",
+    "opsezi" : [ 
+        "0-99", 
+        "0-99"
+    ],
+    "dozvoljeni_rezultati" : [],
+    "broj_serija" : 3,
+    "broj_takmicara" : [ 
+        8
+    ],
+    "tip_rezultata" : "duzina"
+},
+{
+    "_id" : ObjectId("611d3491f78bd5438446899a"),
+    "sport" : "Atletika",
+    "disciplina" : "bacanje diska",
+    "format_rezultata" : "M:CM",
+    "opsezi" : [ 
+        "0-99", 
+        "0-99"
+    ],
+    "dozvoljeni_rezultati" : [],
+    "broj_serija" : 3,
+    "broj_takmicara" : [ 
+        8
+    ],
+    "tip_rezultata" : "duzina"
+},
+{
+    "_id" : ObjectId("611d3499f78bd5438446899e"),
+    "sport" : "Atletika",
+    "disciplina" : "bacanje kladiva",
+    "format_rezultata" : "M:CM",
+    "opsezi" : [ 
+        "0-99", 
+        "0-99"
+    ],
+    "dozvoljeni_rezultati" : [],
+    "broj_serija" : 3,
+    "broj_takmicara" : [ 
+        8
+    ],
+    "tip_rezultata" : "duzina"
+},
+{
+    "_id" : ObjectId("611d34a3f78bd543844689a3"),
+    "sport" : "Atletika",
+    "disciplina" : "bacanje koplja",
+    "format_rezultata" : "M:CM",
+    "opsezi" : [ 
+        "0-99", 
+        "0-99"
+    ],
+    "dozvoljeni_rezultati" : [],
+    "broj_serija" : 3,
+    "broj_takmicara" : [ 
+        8
+    ],
+    "tip_rezultata" : "duzina"
+},
+{
+    "_id" : ObjectId("611d34f7f78bd543844689cd"),
+    "sport" : "Atletika",
+    "disciplina" : "maraton",
+    "format_rezultata" : "C:M:S",
+    "opsezi" : [ 
+        "0-99", 
+        "0-59", 
+        "0-59"
+    ],
+    "dozvoljeni_rezultati" : [],
+    "broj_serija" : 1,
+    "broj_takmicara" : [ 
+        8
+    ],
+    "tip_rezultata" : "vreme-duga pruga"
+},
+{
+    "_id" : ObjectId("611d350af78bd543844689d6"),
+    "sport" : "Atletika",
+    "disciplina" : "20km brzo hodanje",
+    "format_rezultata" : "C:M:S",
+    "opsezi" : [ 
+        "0-99", 
+        "0-59", 
+        "0-59"
+    ],
+    "dozvoljeni_rezultati" : [],
+    "broj_serija" : 1,
+    "broj_takmicara" : [ 
+        8
+    ],
+    "tip_rezultata" : "vreme-duga pruga"
+},
+{
+    "_id" : ObjectId("611d351cf78bd543844689dc"),
+    "sport" : "Atletika",
+    "disciplina" : "50km brzo hodanje",
+    "format_rezultata" : "C:M:S",
+    "opsezi" : [ 
+        "0-99", 
+        "0-59", 
+        "0-59"
+    ],
+    "dozvoljeni_rezultati" : [],
+    "broj_serija" : 1,
+    "broj_takmicara" : [ 
+        8
+    ],
+    "tip_rezultata" : "vreme-duga pruga"
+},
+{
+    "_id" : ObjectId("611d3544f78bd543844689f3"),
+    "sport" : "Biciklizam",
+    "disciplina" : "drumska trka 225km",
+    "format_rezultata" : "C:M:S",
+    "opsezi" : [ 
+        "0-99", 
+        "0-59", 
+        "0-59"
+    ],
+    "dozvoljeni_rezultati" : [],
+    "broj_serija" : 1,
+    "broj_takmicara" : [ 
+        8
+    ],
+    "tip_rezultata" : "vreme-duga pruga"
+},
+{
+    "_id" : ObjectId("611d35aff78bd54384468a33"),
+    "sport" : "Streljastvo",
+    "disciplina" : "50m trostav",
+    "format_rezultata" : "K",
+    "opsezi" : [ 
+        "99"
+    ],
+    "dozvoljeni_rezultati" : [],
+    "broj_serija" : 6,
+    "broj_takmicara" : [ 
+        8
+    ],
+    "tip_rezultata" : "krugovi"
+},
+{
+    "_id" : ObjectId("611d35c6f78bd54384468a3a"),
+    "sport" : "Streljastvo",
+    "disciplina" : "10m vazdusna puska",
+    "format_rezultata" : "K",
+    "opsezi" : [ 
+        "99"
+    ],
+    "dozvoljeni_rezultati" : [],
+    "broj_serija" : 6,
+    "broj_takmicara" : [ 
+        8
+    ],
+    "tip_rezultata" : "krugovi"
+},
+{
+    "_id" : ObjectId("611d35e9f78bd54384468a4e"),
+    "sport" : "Streljastvo",
+    "disciplina" : "25m malokalibarski pistolj",
+    "format_rezultata" : "K",
+    "opsezi" : [ 
+        "99"
+    ],
+    "dozvoljeni_rezultati" : [],
+    "broj_serija" : 6,
+    "broj_takmicara" : [ 
+        8
+    ],
+    "tip_rezultata" : "krugovi"
+},
+{
+    "_id" : ObjectId("611d35fff78bd54384468a58"),
+    "sport" : "Streljastvo",
+    "disciplina" : "10m vazdusni pistolj",
+    "format_rezultata" : "K",
+    "opsezi" : [ 
+        "99"
+    ],
+    "dozvoljeni_rezultati" : [],
+    "broj_serija" : 6,
+    "broj_takmicara" : [ 
+        8
+    ],
+    "tip_rezultata" : "krugovi"
+},
+{
+    "_id" : ObjectId("6121344461f672b2442c42e8"),
+    "sport" : "Tenis",
+    "disciplina" : "singl",
+    "format_rezultata" : "A:B",
+    "opsezi" : [],
+    "dozvoljeni_rezultati" : [ 
+        "2:0", 
+        "2:1", 
+        "1:2", 
+        "0:2"
+    ],
+    "broj_serija" : [ 
+        2, 
+        3, 
+        4
+    ],
+    "broj_takmicara" : [ 
+        4, 
+        8, 
+        16
+    ],
+    "tip_rezultata" : "rezultat u setovima"
+}
+])

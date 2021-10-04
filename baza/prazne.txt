@@ -1,0 +1,5 @@
+db.createCollection('MeceviTurnira')
+db.createCollection('Rezultat')
+db.createCollection('Runda')
+db.createCollection('SportDisciplina')
+db.createCollection('Takmicenja')

@@ -1,0 +1,373 @@
+db.createCollection('Rekordi')
+db.getCollection('Rekordi').insertMany([
+{
+    "_id" : ObjectId("61360d60f5a5ec2ab7e24dac"),
+    "ime" : "Usain",
+    "prezime" : "Bolt",
+    "nacionalnost" : "Jamaica",
+    "igre" : "2012 London",
+    "disciplina" : "100m trcanje",
+    "pol" : "M",
+    "rezultat" : "9:63"
+},
+{
+    "_id" : ObjectId("61360d8df5a5ec2ab7e24dc9"),
+    "ime" : "Usain",
+    "prezime" : "Bolt",
+    "nacionalnost" : "Jamaica",
+    "igre" : "2008 Beijing",
+    "disciplina" : "200m trcanje",
+    "pol" : "M",
+    "rezultat" : "19:30"
+},
+{
+    "_id" : ObjectId("61360dc2f5a5ec2ab7e24de9"),
+    "ime" : "Wayde",
+    "prezime" : "van Niekerk",
+    "nacionalnost" : "South Africa",
+    "igre" : "2016 Rio",
+    "disciplina" : "400m trcanje",
+    "pol" : "M",
+    "rezultat" : "43:03"
+},
+{
+    "_id" : ObjectId("61360df5f5a5ec2ab7e24e02"),
+    "ime" : "David",
+    "prezime" : "Rudisha",
+    "nacionalnost" : "Kenya",
+    "igre" : "2012 London",
+    "disciplina" : "800m trcanje",
+    "pol" : "M",
+    "rezultat" : "1:40:91"
+},
+{
+    "_id" : ObjectId("61360e35f5a5ec2ab7e24e2e"),
+    "ime" : "Kenenisa",
+    "prezime" : "Bekele",
+    "nacionalnost" : "Ethiopia",
+    "igre" : "2008 Beijing",
+    "disciplina" : "5000m trcanje",
+    "pol" : "M",
+    "rezultat" : "12:57:82"
+},
+{
+    "_id" : ObjectId("61360e4ef5a5ec2ab7e24e36"),
+    "ime" : "Kenenisa",
+    "prezime" : "Bekele",
+    "nacionalnost" : "Ethiopia",
+    "igre" : "2008 Beijing",
+    "disciplina" : "10000m trcanje",
+    "pol" : "M",
+    "rezultat" : "27:01:17"
+},
+{
+    "_id" : ObjectId("61360e82f5a5ec2ab7e24e55"),
+    "ime" : "Samuel",
+    "prezime" : "Wanjiru",
+    "nacionalnost" : "Kenia",
+    "igre" : "2008 Beijing",
+    "disciplina" : "maraton",
+    "pol" : "M",
+    "rezultat" : "2:06:32"
+},
+{
+    "_id" : ObjectId("61360ecdf5a5ec2ab7e24e7b"),
+    "ime" : "Chen",
+    "prezime" : "Ding",
+    "nacionalnost" : "China",
+    "igre" : "2012 London",
+    "disciplina" : "20km brzo hodanje",
+    "pol" : "M",
+    "rezultat" : "1:18:46"
+},
+{
+    "_id" : ObjectId("61360eeff5a5ec2ab7e24e95"),
+    "ime" : "Jared",
+    "prezime" : "Talent",
+    "nacionalnost" : "Australia",
+    "igre" : "2012 London",
+    "disciplina" : "50km brzo hodanje",
+    "pol" : "M",
+    "rezultat" : "3:36:53"
+},
+{
+    "_id" : ObjectId("61360f37f5a5ec2ab7e24ec8"),
+    "ime" : "Charles",
+    "prezime" : "Austin",
+    "nacionalnost" : "United States",
+    "igre" : "1996 Atlanta",
+    "disciplina" : "skok u vis",
+    "pol" : "M",
+    "rezultat" : "2:39"
+},
+{
+    "_id" : ObjectId("61360f65f5a5ec2ab7e24ee6"),
+    "ime" : "Bob",
+    "prezime" : "Beamon",
+    "nacionalnost" : "United States",
+    "igre" : "1968 Mexico city",
+    "disciplina" : "skok u dalj",
+    "pol" : "M",
+    "rezultat" : "8:90"
+},
+{
+    "_id" : ObjectId("61360f98f5a5ec2ab7e24eff"),
+    "ime" : "Thiago",
+    "prezime" : "Braz",
+    "nacionalnost" : "Brazil",
+    "igre" : "2016 Rio",
+    "disciplina" : "skok s motkom",
+    "pol" : "M",
+    "rezultat" : "6:03"
+},
+{
+    "_id" : ObjectId("61360fc0f5a5ec2ab7e24f12"),
+    "ime" : "Kenny",
+    "prezime" : "Harrison",
+    "nacionalnost" : "United States",
+    "igre" : "1996 Atlanta",
+    "disciplina" : "troskok",
+    "pol" : "M",
+    "rezultat" : "18:09"
+},
+{
+    "_id" : ObjectId("6136109ff5a5ec2ab7e24f8c"),
+    "ime" : "Randy",
+    "prezime" : "Barnes",
+    "nacionalnost" : "United States",
+    "igre" : "1996 Atlanta",
+    "disciplina" : "bacanje kugle",
+    "pol" : "M",
+    "rezultat" : "23:12"
+},
+{
+    "_id" : ObjectId("613610dff5a5ec2ab7e24fad"),
+    "ime" : "Virgilijus",
+    "prezime" : "Alenka",
+    "nacionalnost" : "Lithuania",
+    "igre" : "2004 Athens",
+    "disciplina" : "bacanje diska",
+    "pol" : "M",
+    "rezultat" : "69:89"
+},
+{
+    "_id" : ObjectId("61361114f5a5ec2ab7e24fcd"),
+    "ime" : "Sergey",
+    "prezime" : "Litvinov",
+    "nacionalnost" : "Soviet Union",
+    "igre" : "1988 Seoul",
+    "disciplina" : "bacanje kladiva",
+    "pol" : "M",
+    "rezultat" : "84:80"
+},
+{
+    "_id" : ObjectId("61361155f5a5ec2ab7e24fef"),
+    "ime" : "Andreas",
+    "prezime" : "Thorkiidsen",
+    "nacionalnost" : "Norway",
+    "igre" : "2008 Beijing",
+    "disciplina" : "bacanje koplja",
+    "pol" : "M",
+    "rezultat" : "90:57"
+},
+{
+    "_id" : ObjectId("61361199f5a5ec2ab7e25034"),
+    "ime" : "Elaine",
+    "prezime" : "Thompson-Herah",
+    "nacionalnost" : "Jamaica",
+    "igre" : "2020 Tokyo",
+    "disciplina" : "100m trcanje",
+    "pol" : "Z",
+    "rezultat" : "10:61"
+},
+{
+    "_id" : ObjectId("613611bff5a5ec2ab7e25053"),
+    "ime" : "Florence",
+    "prezime" : "Griffith-Joyner",
+    "nacionalnost" : "United States",
+    "igre" : "1988 Seoul",
+    "disciplina" : "200m trcanje",
+    "pol" : "Z",
+    "rezultat" : "21:34"
+},
+{
+    "_id" : ObjectId("613611f2f5a5ec2ab7e25074"),
+    "ime" : "Marie-Jose",
+    "prezime" : "Perec",
+    "nacionalnost" : "France",
+    "igre" : "1996 Atlanta",
+    "disciplina" : "400m trcanje",
+    "pol" : "Z",
+    "rezultat" : "48:25"
+},
+{
+    "_id" : ObjectId("6136121ef5a5ec2ab7e25090"),
+    "ime" : "Nadezhda",
+    "prezime" : "Olizarenko",
+    "nacionalnost" : "Soviet Union",
+    "igre" : "1980 Moscow",
+    "disciplina" : "800m trcanje",
+    "pol" : "Z",
+    "rezultat" : "1:53:43"
+},
+{
+    "_id" : ObjectId("61361250f5a5ec2ab7e250af"),
+    "ime" : "Vivian",
+    "prezime" : "Cheruiyot",
+    "nacionalnost" : "Kenya",
+    "igre" : "2016 Rio",
+    "disciplina" : "5000m trcanje",
+    "pol" : "Z",
+    "rezultat" : "14:26:17"
+},
+{
+    "_id" : ObjectId("61361280f5a5ec2ab7e250cd"),
+    "ime" : "Almaz",
+    "prezime" : "Ayana",
+    "nacionalnost" : "Ethiopia",
+    "igre" : "2016 Rio",
+    "disciplina" : "10000m trcanje",
+    "pol" : "Z",
+    "rezultat" : "29:17:45"
+},
+{
+    "_id" : ObjectId("613612acf5a5ec2ab7e250f1"),
+    "ime" : "Tiki",
+    "prezime" : "Gelana",
+    "nacionalnost" : "Ethiopia",
+    "igre" : "2012 London",
+    "disciplina" : "maraton",
+    "pol" : "Z",
+    "rezultat" : "2:23:07"
+},
+{
+    "_id" : ObjectId("613612e9f5a5ec2ab7e2511c"),
+    "ime" : "Elena",
+    "prezime" : "Lashmanova",
+    "nacionalnost" : "ROC",
+    "igre" : "2012 London",
+    "disciplina" : "20km brzo hodanje",
+    "pol" : "Z",
+    "rezultat" : "1:25:02"
+},
+{
+    "_id" : ObjectId("6136131bf5a5ec2ab7e2513b"),
+    "ime" : "Yelena",
+    "prezime" : "Slasarenko",
+    "nacionalnost" : "ROC",
+    "igre" : "2004 Athens",
+    "disciplina" : "skok u vis",
+    "pol" : "Z",
+    "rezultat" : "2:06"
+},
+{
+    "_id" : ObjectId("61361348f5a5ec2ab7e25157"),
+    "ime" : "Jackie",
+    "prezime" : "Joyner-Kersee",
+    "nacionalnost" : "United States",
+    "igre" : "1988 Seoul",
+    "disciplina" : "skok u dalj",
+    "pol" : "Z",
+    "rezultat" : "7:40"
+},
+{
+    "_id" : ObjectId("61361374f5a5ec2ab7e25173"),
+    "ime" : "Yelena",
+    "prezime" : "Isinbayeva",
+    "nacionalnost" : "ROC",
+    "igre" : "2008 Beijing",
+    "disciplina" : "skok s motkom",
+    "pol" : "Z",
+    "rezultat" : "5:05"
+},
+{
+    "_id" : ObjectId("61361398f5a5ec2ab7e25191"),
+    "ime" : "Yulimar",
+    "prezime" : "Rojas",
+    "nacionalnost" : "Venezuela",
+    "igre" : "2020 Tokyo",
+    "disciplina" : "troskok",
+    "pol" : "Z",
+    "rezultat" : "15:67"
+},
+{
+    "_id" : ObjectId("613613c4f5a5ec2ab7e251ab"),
+    "ime" : "Ilona",
+    "prezime" : "Supianek",
+    "nacionalnost" : "Germany",
+    "igre" : "1980 Moscow",
+    "disciplina" : "bacanje kugle",
+    "pol" : "Z",
+    "rezultat" : "22:41"
+},
+{
+    "_id" : ObjectId("613613eaf5a5ec2ab7e251c6"),
+    "ime" : "Martina",
+    "prezime" : "Hellmann",
+    "nacionalnost" : "Germany",
+    "igre" : "1988 Seoul",
+    "disciplina" : "bacanje diska",
+    "pol" : "Z",
+    "rezultat" : "72:30"
+},
+{
+    "_id" : ObjectId("61361412f5a5ec2ab7e251e9"),
+    "ime" : "Anita",
+    "prezime" : "Wlodarczyk",
+    "nacionalnost" : "Poland",
+    "igre" : "2016 Rio",
+    "disciplina" : "bacanje kladiva",
+    "pol" : "Z",
+    "rezultat" : "82:29"
+},
+{
+    "_id" : ObjectId("6136143df5a5ec2ab7e25200"),
+    "ime" : "Osleidys",
+    "prezime" : "Menendez",
+    "nacionalnost" : "Cuba",
+    "igre" : "2004 Athens",
+    "disciplina" : "bacanje koplja",
+    "pol" : "Z",
+    "rezultat" : "71:53"
+},
+{
+    "_id" : ObjectId("613614fdf5a5ec2ab7e25287"),
+    "ime" : "Caeleb",
+    "prezime" : "Dressel",
+    "nacionalnost" : "United States",
+    "igre" : "2020 Tokyo",
+    "disciplina" : "100m slobodno",
+    "pol" : "M",
+    "rezultat" : "47:02"
+},
+{
+    "_id" : ObjectId("61361529f5a5ec2ab7e252a6"),
+    "ime" : "Caeleb",
+    "prezime" : "Dressel",
+    "nacionalnost" : "United States",
+    "igre" : "2020 Tokyo",
+    "disciplina" : "100m leptir",
+    "pol" : "M",
+    "rezultat" : "49:45"
+},
+{
+    "_id" : ObjectId("61361552f5a5ec2ab7e252c2"),
+    "ime" : "Emma",
+    "prezime" : "McKeon",
+    "nacionalnost" : "Australia",
+    "igre" : "2020 Tokyo",
+    "disciplina" : "100m slobodno",
+    "pol" : "Z",
+    "rezultat" : "51:96"
+},
+{
+    "_id" : ObjectId("61361580f5a5ec2ab7e252e8"),
+    "ime" : "Sarah",
+    "prezime" : "Sjorstrom",
+    "nacionalnost" : "Sweden",
+    "igre" : "2016 Rio",
+    "disciplina" : "100m leptir",
+    "pol" : "Z",
+    "rezultat" : "55:48"
+}
+])
